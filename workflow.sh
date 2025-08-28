@@ -30,8 +30,6 @@ git rm index.html
 git reset HEAD index.html
 git checkout -- index.html
 
-git clone ../Cats .
-
 git status
 
 git status -s // short
@@ -46,9 +44,12 @@ git show HEAD~1:.gitignore
 
 git ls-tree HEAD~1
 
-.gitignore
-
 git branch --show-current
 git merge --abort
 git commit --amend --no-edit
+
+git stash
+git stash pop
+
+git merge --no-ff "test1"
 
