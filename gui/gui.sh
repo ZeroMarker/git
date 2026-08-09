@@ -6,3 +6,8 @@ winget install fork.fork
 
 winget install Axosoft.GitKraken
 
+# sourcegit
+
+# ugit
+
+git gui
